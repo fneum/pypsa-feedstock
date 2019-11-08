@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vvv "
   noarch: python
 
@@ -24,7 +24,7 @@ requirements:
     - matplotlib
     - networkx >=1.10
     - numpy
-    - pandas >=0.19.0
+    - pandas >=0.24.0
     - pyomo >=5.3
     - python
     - scipy
