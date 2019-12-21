@@ -28,7 +28,7 @@ requirements:
     - pyomo >=5.3
     - python
     - scipy
-    - six >= 1.13.0
+    - six >=1.13.0
     - netcdf4
     - pytables
 
