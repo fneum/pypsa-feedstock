@@ -1,6 +1,6 @@
 {% set name = "pypsa" %}
-{% set version = "0.15.0" %}
-{% set sha256 = "de5004ad306fcd737357b8d76fa837405b675c9f809c0523f37544d0a29e8e31" %}
+{% set version = "0.16.0" %}
+{% set sha256 = "f728edd139f2e8a949b5148445c5b7f1dbda536e7d5ec2a8b55935d9f783a342" %}
 
 package:
   name: "{{ name|lower }}"
@@ -24,11 +24,11 @@ requirements:
     - matplotlib
     - networkx >=1.10
     - numpy
-    - pandas >=0.19.0
+    - pandas >=0.24.0
     - pyomo >=5.3
     - python
     - scipy
-    - six
+    - six >=1.13.0
     - netcdf4
     - pytables
 
