@@ -1,6 +1,6 @@
 {% set name = "pypsa" %}
-{% set version = "0.16.1" %}
-{% set sha256 = "624a8b840396e9316f877b89a0b18d0f734d50b1ec739e8cf1e5055054717789" %}
+{% set version = "0.17.0" %}
+{% set sha256 = "53e4e0005e24a42222a238abb3376d6feded330d99a743ecc3cccbd953ce3b8c" %}
 
 package:
   name: "{{ name|lower }}"
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: "{{ PYTHON }} -m pip install . -vvv "
   noarch: python
 
@@ -38,7 +38,7 @@ test:
 
 about:
   home: https://pypsa.org/
-  license: GPL-3.0
+  license: GPL-3.0-or-later
   license_family: GPL
   license_file: LICENSE.txt
   summary: Python for Power Systems Analysis
