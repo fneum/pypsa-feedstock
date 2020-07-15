@@ -25,7 +25,7 @@ requirements:
     - networkx >=1.10
     - numpy
     - pandas >=0.24.0
-    - pyomo >=5.3
+    - pyomo >=5.7
     - python
     - scipy
     - six >=1.13.0
