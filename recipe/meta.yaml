@@ -1,10 +1,10 @@
 {% set name = "pypsa" %}
-{% set version = "0.17.0" %}
-{% set sha256 = "53e4e0005e24a42222a238abb3376d6feded330d99a743ecc3cccbd953ce3b8c" %}
+{% set version = "0.17.1" %}
+{% set sha256 = "47b65b9543146ff5584b3ea94e6377e22ca4a04bb7457f11685f3831eec77472" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
@@ -12,7 +12,7 @@ source:
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vvv "
+  script: '{{ PYTHON }} -m pip install . -vvv '
   noarch: python
 
 requirements:
@@ -25,7 +25,7 @@ requirements:
     - networkx >=1.10
     - numpy
     - pandas >=0.24.0
-    - pyomo >=5.3
+    - pyomo >=5.7
     - python
     - scipy
     - six >=1.13.0
@@ -55,3 +55,4 @@ extra:
   recipe-maintainers:
     - coroa
     - nworbmot
+    - fneum

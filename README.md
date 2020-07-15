@@ -3,9 +3,9 @@ About pypsa
 
 Home: https://pypsa.org/
 
-Package license: GPL-3.0
+Package license: GPL-3.0-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Python for Power Systems Analysis
 
