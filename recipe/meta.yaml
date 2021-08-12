@@ -17,7 +17,7 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
     - cartopy >=0.16
@@ -41,7 +41,7 @@ test:
 about:
   home: https://pypsa.org/
   license: MIT
-  license_family: Permissive
+  license_family: MIT
   license_file: LICENSE.txt
   summary: Python for Power Systems Analysis
   description: |
