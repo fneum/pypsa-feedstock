@@ -1,6 +1,6 @@
 {% set name = "pypsa" %}
-{% set version = "0.17.1" %}
-{% set sha256 = "47b65b9543146ff5584b3ea94e6377e22ca4a04bb7457f11685f3831eec77472" %}
+{% set version = "0.18.0" %}
+{% set sha256 = "615dfaa30eaf7de3bac32b37689f801c9f32032fa4c3cf6445db0bc8352c6541" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,7 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
     - cartopy >=0.16
@@ -26,11 +26,13 @@ requirements:
     - numpy
     - pandas >=0.24.0
     - pyomo >=5.7
-    - python
+    - python >=3.6
     - scipy
     - six >=1.13.0
     - netcdf4
     - pytables
+    - deprecation
+    - xarray
 
 test:
   imports:
@@ -38,8 +40,8 @@ test:
 
 about:
   home: https://pypsa.org/
-  license: GPL-3.0-or-later
-  license_family: GPL
+  license: MIT
+  license_family: MIT
   license_file: LICENSE.txt
   summary: Python for Power Systems Analysis
   description: |
@@ -48,7 +50,7 @@ about:
     commitment, variable wind and solar generation, storage units, coupling to
     other energy sectors, and mixed alternating and direct current networks.
     PyPSA is designed to scale well with large networks and long time series.
-  doc_url: https://pypsa.org/doc/
+  doc_url: https://pypsa.readthedocs.io
   dev_url: https://github.com/PyPSA/PyPSA
 
 extra:
