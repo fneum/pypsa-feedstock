@@ -26,7 +26,7 @@ requirements:
     - numpy
     - pandas >=0.24.0
     - pyomo >=5.7
-    - python
+    - python >=3.6
     - scipy
     - six >=1.13.0
     - netcdf4
