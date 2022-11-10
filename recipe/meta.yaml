@@ -33,7 +33,7 @@ requirements:
     - pytables
     - deprecation
     - xarray <=2022.03
-    - linopy
+    - linopy <=0.1
 
 test:
   imports:
