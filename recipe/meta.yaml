@@ -1,6 +1,6 @@
 {% set name = "pypsa" %}
-{% set version = "0.21.0" %}
-{% set sha256 = "79ee8cb937d22fcd6a863a36f5fb444d60f7db112ce26d8ba55bfbf67d110e46" %}
+{% set version = "0.21.1" %}
+{% set sha256 = "7e86fd71c724febcafe31630d04fb723b102935f1d899329b3b6d2b323c1581d" %}
 
 package:
   name: {{ name|lower }}
