@@ -32,8 +32,8 @@ requirements:
     - netcdf4
     - pytables
     - deprecation
-    - xarray
-    - linopy >=0.0.13
+    - xarray <=2022.03
+    - linopy
 
 test:
   imports:
