@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: '{{ PYTHON }} -m pip install . -vvv '
   noarch: python
 
@@ -32,7 +32,7 @@ requirements:
     - netcdf4
     - pytables
     - deprecation
-    - xarray <=2022.03
+    - xarray
     - linopy <=0.1
 
 test:
