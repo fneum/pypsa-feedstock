@@ -32,6 +32,8 @@ requirements:
     - netcdf4
     - pytables
     - deprecation
+    - validators
+    - packaging
     - xarray
     - linopy >=0.1.1
 
